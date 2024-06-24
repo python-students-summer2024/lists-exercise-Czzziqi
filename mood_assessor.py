@@ -78,6 +78,7 @@ def check_disorders():
             return "depressive"
         elif apathetic >= 6:
             return "schizoid"
+        
         else:
             return None
 
